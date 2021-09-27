@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageView_main_page"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/salamna"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btn_Top_Rated"
+            android:background="@color/design_default_color_on_primary"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Top Rated"></Button>
+        <Button
+            android:id="@+id/btn_Popular"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_on_primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Popular"></Button>
+        <Button
+            android:layout_margin="5dp"
+            android:background="@color/design_default_color_on_primary"
+            android:id="@+id/btn_Upcoming"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upcoming"
+            ></Button>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_place"
+       >
+
+
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>
